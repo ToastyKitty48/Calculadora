@@ -15,4 +15,8 @@ public class Math : MonoBehaviour
     {
         
     }
+    public void Calculate()
+    {
+        //GameObject[] amounts = gameObject.
+    }
 }
