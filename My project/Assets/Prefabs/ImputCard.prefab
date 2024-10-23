@@ -148,7 +148,7 @@ GameObject:
   - component: {fileID: 4846467396760081100}
   m_Layer: 5
   m_Name: UnitAmount
-  m_TagString: Untagged
+  m_TagString: Quanty
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1869,7 +1869,7 @@ GameObject:
   - component: {fileID: 5181039609920506861}
   m_Layer: 5
   m_Name: Unit Cost
-  m_TagString: Untagged
+  m_TagString: Cost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
