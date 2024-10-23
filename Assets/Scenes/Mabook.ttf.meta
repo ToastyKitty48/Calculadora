@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7a2e98b844ad97848b94f4ab16712eb1
+guid: 571a91f41c61cfc47aadb393db918f9f
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Comic Sans MS
+  - Mabook
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
