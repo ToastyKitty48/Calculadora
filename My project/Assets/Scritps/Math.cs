@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class Math : MonoBehaviour
 {
@@ -19,6 +21,28 @@ public class Math : MonoBehaviour
     {
         GameObject[] Amounts = GameObject.FindGameObjectsWithTag("Quanty");
         GameObject[] Costs = GameObject.FindGameObjectsWithTag("Cost");
-        //double[Amounts.Length] TotalCosts;
+        float[] AmountsDoub = new float[Amounts.Length];
+        float[] CostsDoub = new float[Costs.Length];
+        float[] TotalCosts = new float[Amounts.Length];
+        float FinalCost = new float();
+        
+        for (int i = 0; i < Amounts.Length; i++) {
+            if (float.TryParse(Amounts[i].GetComponent<TMP_InputField>().text, out AmountsDoub[i]) == false) {
+                Debug.Log("Don't use letters please or multiple decimal points :(");
+                return;
+            }
+            if (float.TryParse(Costs[i].GetComponent<TMP_InputField>().text, out CostsDoub[i]) == false)
+            {
+                Debug.Log("Don't use letters please or multiple decimal points :(");
+                return;
+            }
+            TotalCosts[i] = AmountsDoub[i] * CostsDoub[i];
+        }
+
+        for (int i = 0; i < TotalCosts.Length; i++) {
+            FinalCost += TotalCosts[i];
+        }
+
+        Debug.Log(FinalCost);
     }
 }
