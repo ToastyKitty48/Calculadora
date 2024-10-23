@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a1dcdf43f25e16e47946bd2fa0c3b4b6
+guid: 7a2e98b844ad97848b94f4ab16712eb1
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Blantick Script
+  - Comic Sans MS
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
