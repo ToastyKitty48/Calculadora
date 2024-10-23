@@ -2126,10 +2126,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1058901227}
     m_Modifications:
-    - target: {fileID: 492385083069350660, guid: 5fc93245dd6fe3c4ab86718b2905cba7, type: 3}
-      propertyPath: m_TagString
-      value: Cost
-      objectReference: {fileID: 0}
     - target: {fileID: 1616694747434805516, guid: 5fc93245dd6fe3c4ab86718b2905cba7, type: 3}
       propertyPath: m_Name
       value: ImputCard
@@ -2213,10 +2209,6 @@ PrefabInstance:
     - target: {fileID: 4560538156582164753, guid: 5fc93245dd6fe3c4ab86718b2905cba7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6801805921572192929, guid: 5fc93245dd6fe3c4ab86718b2905cba7, type: 3}
-      propertyPath: m_TagString
-      value: Quanty
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

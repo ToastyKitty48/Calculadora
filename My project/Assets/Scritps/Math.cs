@@ -17,6 +17,8 @@ public class Math : MonoBehaviour
     }
     public void Calculate()
     {
-        //GameObject[] amounts = gameObject.
+        GameObject[] Amounts = GameObject.FindGameObjectsWithTag("Quanty");
+        GameObject[] Costs = GameObject.FindGameObjectsWithTag("Cost");
+        //double[Amounts.Length] TotalCosts;
     }
 }
