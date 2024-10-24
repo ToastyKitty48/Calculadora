@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Quanty
   - Cost
+  - CostBox
+  - MarkupBox
   layers:
   - Default
   - TransparentFX
